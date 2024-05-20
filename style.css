@@ -1,0 +1,239 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 40px;
+    width:100%;
+    /* border: 2px solid red; */
+}
+
+header > p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* Button Container */
+
+#btnContainer{
+    height: 45px;
+    width:100%;
+    /* border: 2px solid green */
+   
+}
+
+#btnContainer > button{
+    height: 40px;
+    width:180px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: black;
+    color:white;
+    /* font-weight: bold; */
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+
+/* Menu Container */
+
+#menuContainer{
+    /* height: 100px; */
+    width:100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menuContainer > div{
+    height: 100px;
+    width:400px;
+    /* border: 2px solid blue; */
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.menuBox1{
+    height: 45px;
+    width:100%;
+    /* border: 2px solid red; */
+}
+
+.menuBox1 > span{
+    display: inline-block;
+}
+
+.menuName{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.menuResult{
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: 8px;
+    margin-left:10px;
+
+}
+
+.menuBox2{
+    height: 45px;
+    width:100%;
+    margin-top:5px;
+    /* border: 2px solid red; */
+}
+
+.menuBox2 > span{
+    display: inline-block;
+}
+
+/*Map Container */
+
+
+#mapContainer{
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:90%;
+    /* border: 2px solid orange; */
+
+}
+
+
+/* Date & Map Container */
+
+#dateContainer{
+    height: 200px;
+    width:100%;
+    /* border: 2px solid green; */
+  
+}
+
+#dateContainer > div{
+    width:90%;
+    height: 35px;
+    /* border: 2px solid red; */
+    margin-top:10px;
+}
+
+#dateContainer > div > span{
+   display: inline-block;
+}
+
+.dateName{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+.dateResult{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+/* Filter Container */
+
+#filterContainer{
+    /* height: 50px; */
+    width:100%;
+    /* border: 2px solid red; */
+}
+
+#filterContainer > div{
+    height: 40px;
+    width:90%;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+}
+
+#filterContainer > div > button{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+
+}
+
+#filterContainer > div > input{
+    display: inline-block;
+    width:60%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    outline: none;
+
+}
+
+/* Post Address Container */
+
+#addressContainer{
+    /* height: 400px; */
+    width:100%;
+    margin-top:2%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+#addressContainer > div{
+    height: 200px;
+    width:400px;
+    border: 2px solid black;
+    margin-top:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.addressBox1{
+    height: 35px;
+    width:100%;
+    /* border: 2px solid red; */
+}
+
+.addressBox1 > span{
+    display: inline-block;
+}
+
+.addressName{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+.addressResult{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left:10px;
+
+}
+
+.addressBox2{
+    height: 35px;
+    width:100%;
+    margin-top:5px;
+    /* border: 2px solid red; */
+}
+
+.addressBox2 > span{
+    display: inline-block;
+}
